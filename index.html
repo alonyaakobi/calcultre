@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class='container'>
+        <div class='row'>
+            <div class='col-xs-8'>
+             <form class="form-horizontal">
+  
+  <div class="row">
+      <br><br>
+  <div class="col-xs-2">
+    <input type="text" class="form-control" id="num1" placeholder="add num">
+  </div>
+  <div class="col-xs-2">
+    <input type="text" class="form-control" id="num2" placeholder="add num">
+  </div>
+ 
+</div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+       
+            
+            <input type="radio" name="op" value="plos"> +
+            <input type="radio" name="op" value="minos"> -
+            <input type="radio" name="op" value="molti"> *
+            <input type="radio" name="op" value="division"> /
+        
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default" id="calculate">calculate</button>
+    </div>
+  </div>
+    <div class="col-xs-2">
+        <div  class="form-control" id="result" > </div>
+  </div>    
+</form>
+            </div>
+            <div class='col-xs-4'>
+                    <div id=contain></div>
+            </div>
+        </div>
+    </div>
+   
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
